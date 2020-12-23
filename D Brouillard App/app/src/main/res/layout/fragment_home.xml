@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/fragment_Container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height='350dp'
+            android:background="@drawable/home_lec_back"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="6dp">
+
+            <TextView
+                android:layout_width="284dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="25dp"
+                android:text="@string/home_word"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+
+            <LinearLayout
+                android:layout_width='match_parent'
+                android:layout_height="185dp"
+                android:weightSum="3">
+
+
+
+                <ImageView
+                    android:layout_width='0dp'
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ic_home_image"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="25dp"
+                    android:text="@string/home_word1"
+
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homefragmentrecycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

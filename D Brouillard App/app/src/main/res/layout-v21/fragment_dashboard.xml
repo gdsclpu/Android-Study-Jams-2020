@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height='350dp'
+        android:background="@drawable/homebackground"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="6dp">
+
+        <TextView
+            android:layout_width="284dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:text="@string/home_word"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+
+
+        <LinearLayout
+            android:layout_width='match_parent'
+            android:layout_height="185dp"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="152dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="25dp"
+                android:text="@string/home_word1"
+
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width='0dp'
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_home_image"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/your_accepted_task"
+                android:background="@drawable/home_methods"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                >
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_accept_task"/>
+
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:text="Accepted Task"
+
+                android:textStyle="italic" />
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:gravity="center"
+
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                >
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_double_arrow"/>
+
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:textStyle="italic" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/your_accepted_task_dashboard"
+            android:gravity="center"
+
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+
+                android:background="@drawable/home_methods"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                >
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_your_accepted_task"/>
+
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:text="your Task"
+
+                android:textStyle="italic" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+         <LinearLayout
+             android:layout_marginTop="15dp"
+             android:layout_marginLeft="15dp"
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:textStyle="bold|italic"
+                 android:text="Presonal Views "
+                 tools:ignore="HardcodedText" />
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+
+
+
+
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dashbord_posttask"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="8dp"
+                    android:layout_margin="5dp"
+                    android:elevation="10dp">
+
+                    <LinearLayout
+                        android:weightSum="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_baseline_timeline_24"
+                            tools:ignore="Suspicious0dp">
+
+                        </ImageView>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="Post here">
+
+                            </TextView>
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+         </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+
+
+
+
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dashbord_seepost"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="8dp"
+                    android:layout_margin="5dp"
+                    android:elevation="10dp">
+
+                    <LinearLayout
+                        android:weightSum="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_baseline_blur_on_24"
+                            tools:ignore="Suspicious0dp">
+
+                        </ImageView>
+
+
+
+                        <LinearLayout
+                            android:layout_weight="2"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="match_parent"
+
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="See your Post here">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            
+
+        </LinearLayout>
+        
+        
+        
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "11411039831",
+    "firebase_url": "https://virtusa-58806.firebaseio.com",
+    "project_id": "virtusa-58806",
+    "storage_bucket": "virtusa-58806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11411039831:android:37b7732d33d621c17da512",
+        "android_client_info": {
+          "package_name": "com.example.lpuactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11411039831-lnih944h380v4dok4iirv68tpen6f20s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZQSzxK_AN2jHZ4EIzz6_DG0l3gh1CxWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11411039831-lnih944h380v4dok4iirv68tpen6f20s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

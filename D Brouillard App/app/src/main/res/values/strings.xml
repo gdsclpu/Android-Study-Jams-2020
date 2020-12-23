@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Débrouillard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home_word">Débrouillard explore the world</string>
+    <string name="home_word1">Got Loads of Assignments?
+        We got you covered with Débrouillard Post your task here and individuals around the globe will assist you with finishing it. </string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_post_task">FullscreenActivity</string>
+    <string name="detail_button">Accept</string>
+    <string name="detail_second_button">Remove</string>
+
+
+</resources>
