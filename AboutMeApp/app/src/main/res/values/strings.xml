@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AboutMeApp</string>
+    <string name="my_name">Sharanya</string>
+    <string name="text_bio">\nThis is my bio.
+\nI Study in Lovely Professional University.
+\n\n This is my first android app. I am adding iteractivity.
+\n\nI have learnt about adding images into it
+\n\nI learnt about the scroll view.
+    </string>
+</resources>
